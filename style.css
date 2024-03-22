@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.celular {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: #eee;
+}
+th, td {
+    border: 1px solid black;
+    padding: 7px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.horario {
+    margin: 0 50px 50px;
+}
+
+.intervalo, .hora, thead, .almoco {
+    background-color: #EEECE1;
+}
+
+.intervalo, .almoco {
+    font-weight: bold;
+}
+
+.semHorario {
+    background-color: #FFC7CE;
+}
+
+tbody {
+    font-size: 15px;
+}
+
+.hora {
+    text-align: start;
+    font-size: 12px;
+}
+
+.horaIntervalo {
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    body {
+        overflow: auto;
+    }
+    .celular {
+        display: block;
+        margin-top: 20px;
+    }
+    .computador {
+        display: none;
+    }
+    .celular tbody {
+        font-size: 13px;
+    }
+    th, td {
+        padding: 4px;
+    }
+}

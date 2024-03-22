@@ -62,6 +62,9 @@ tbody {
         display: block;
         margin-top: 20px;
     }
+    .horario {
+        margin: 10px;
+    }
     .computador {
         display: none;
     }

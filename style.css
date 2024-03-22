@@ -63,7 +63,6 @@ tbody {
         margin-top: 20px;
     }
     .horario {
-        margin: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -98,7 +97,6 @@ tbody {
         margin-top: 20px;
     }
     .horario {
-        margin: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;

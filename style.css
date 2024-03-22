@@ -54,7 +54,7 @@ tbody {
     font-size: 14px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 350px) and (max-width: 800px) {
     body {
         overflow: auto;
     }
@@ -64,6 +64,10 @@ tbody {
     }
     .horario {
         margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .computador {
         display: none;
@@ -73,5 +77,49 @@ tbody {
     }
     th, td {
         padding: 4px;
+    }
+    .horario .celularTabela {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .horario table, .celularTabela table {
+        width: 300px; 
+    }
+}
+
+@media (max-width: 349px) {
+    body {
+        overflow: auto;
+    }
+    .celular {
+        display: block;
+        margin-top: 20px;
+    }
+    .horario {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .computador {
+        display: none;
+    }
+    .celular tbody {
+        font-size: 13px;
+    }
+    th, td {
+        padding: 4px;
+    }
+    .horario .celularTabela {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .horario table, .celularTabela table {
+        width: 200px; 
     }
 }
